@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>"JFK's Gallery"</title>
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">JFK Gallery</a>| <a href="contact-us.html">Contact us</a>
+        <style>
+            a:link {color:#880000;} /* unvisited link */
+            a:visited {color:#ff0095;} /* visited link */
+            a:hover {color:#ffbb00;} /* mouse over link */
+            a:active {color:#00c3ff;}  /* selected link */
+         </style>
+     </nav>
+
+   <p>I'm not asking you to do anything but asking what can I do for you!!</p>
+
+   <table border="1" cellpadding="2">
+        <caption>JFK Campaign Tour</caption>
+        <thread>
+            <tr>
+                <th colspan ="4"> Here's the cities I'll be touring if want to see me</th>
+            </tr>
+            <tr>
+                <th scope="col">State</th>
+                <th scope="col">City</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+            </tr>
+        </thread>
+        <tbody>
+                <tr>
+                    <td>Tx</td>
+                    <td>Dallas</td>
+                    <td>11-22-1963</td>
+                    <td>12:30 p.m.</td>
+                </tr>
+                <tr>
+                    <td>Ar</td>
+                    <td>Fort Smith</td>
+                    <td>11-23-1963</td>
+                    <td>9:00 a.m.</td>
+                </tr>
+                <tr>
+                    <td>Ia</td>
+                    <td>Des Moines</td>
+                    <td>11-24-1963</td>
+                    <td>1:00 p.m.</td>
+                </tr>
+                <tr>
+                    <td>Ok</td>
+                    <td>Broken Arrow</td>
+                    <td>11-25-1963</td>
+                    <td>2:30 p.m.</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Come by and hear what I have to say</td>
+            </tr>
+        </tfoot>
+   </table>
+
+   <h2>Want to help out my campaign? Sign up below!</h2>
+
+   <fieldset>
+        <legend>Campaign Staff Application</legend>
+        <form action="mailto:Omair358@outlook.com.ext" method="post">
+            <p><label> Last Name <input type="text" name="lastname" id="name" value="" autofocus required> </label></p>
+            <p><label> First Name <input type="text" name="firstname"> </label></p>
+
+            <p>Political Alignment</p>
+            <label for="Liberal">Liberal</label> 
+            <input type="checkbox" id="Liberal" name="poltic" value="Liberal">
+            <label for="Libertarian">Libertatrian</label> 
+            <input type="checkbox" id="Libertarian" name="poltic" value="Libertarian">
+            <label for="Communist">Communist</label> 
+            <input type="checkbox" id="Communist" name="poltic" value="Communist">
+            <label for="Republican">Republican</label> 
+            <input type="checkbox" id="Republican" name="poltic" value="Republican">
+            <label for="Democratic">Democrat</label> 
+            <input type="checkbox" id="Democratic" name="poltic" value="Democratic">
+
+            <p>Gender</p>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+
+            <label for="non-binary">non-binary</label> 
+            <input type="radio" id="non-binary" name="Gender" value="non-binary">
+            
+            <label for="Alien">Alien</label>
+            <input type="radio" id="Alien" name="Gender" value="alien">
+
+            <p><label> Select State</label> </p>
+            <select name="State" size="" >
+                <option value="Texas" selected> Tx </option>
+                <option value="Arkansas" selected> Ar </option>
+                <option value="California" selected> Ca </option>
+                <option value="Oaklahoma" selected> OK </option>
+                <option value="Mississippi" selected> MS </option>
+            </select>
+            
+
+            <p>upload resume</p>
+            <input type="file" name="xxxx">
+            
+            <p><label for="info">Addtional info</label></p>
+            <textarea id="message" name="message"></textarea>
+        
+            <p>
+            <input type="reset" value="reset form">
+            </p>
+            <p>
+            <input type="submit" value="Submit Application">
+            </p>
+   </fieldset>
+
+
+
+    
+
+    
+
+
+
+
+
+   
+
+
+
+   </form>
+</body>

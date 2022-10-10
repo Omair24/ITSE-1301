@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(136, 167, 187, 0.884);
+    color: whitesmoke;
+    padding: 1em;
+  }
+
+  main {
+    width: 80%;
+    height: 24em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+  }
+
+  body {
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: rgb(220, 255, 238);
+    padding: .5em;
+  }
+
+nav {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+p {
+	color: #003a1d;   
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+h1, h2, h3 {
+	color: #006f83;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+ul.special {
+    color:royalblue;
+}
+
+a:link {color:#880000;} 
+a:visited {color:#ff0095;} 
+a:hover {color:#ffbb00;} 
+a:active {color:#00c3ff;}
+
+
+footer {
+    width: 100%;
+    height: 4em;
+    clear: both;
+    background-color: rgba(136, 167, 187, 0.884);
+    color: bisque;
+    text-align: left;
+    padding-top: .5em;
+  }
+
+
