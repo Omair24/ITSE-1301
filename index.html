@@ -24,13 +24,19 @@
         <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
       <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
    </head>
 
    <body>
-      <header>
+      <header class="w3-container w3-light-blue">
          <h1>John F. Kennedy</h1>
-         <nav>
-            <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">JFK Gallery</a>| <a href="contact-us.html">Contact us</a>
+      </header>
+         <nav class="w3-bar w3-border w3-light-blue">
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Home</a>
+            <a href="faq.html" class="w3-bar-item w3-button w3-hover-teal">FAQs</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-hover-teal">JFK Gallery</a>
+            <a href="contact-us.html" class="w3-bar-item w3-button w3-hover-teal">Contact us</a>
+
             <style>
                a:link {color:#880000;} /* unvisited link */
                a:visited {color:#ff0095;} /* visited link */
@@ -38,12 +44,18 @@
                a:active {color:#00c3ff;}  /* selected link */
             </style>
          </nav>
-         <h2>35th President of the United States of America</h2>
-         <h2>May 29, 1917 ~ November 22, 1963</h2>
+
+
+         <h2 class="w3-panel w3-border w3-light-grey w3-round-large">35th President of the United States of America</h2>
+         <p>May 29, 1917 ~ November 22, 1963</p>
          
-         <blockquote><em>"If not us, who? If not now, when?"</em></blockquote>
-         <blockquote><em>"Every accomplishment starts with the decision to try"</em></blockquote>
-      </header>
+         <blockquote class="w3-panel w3-blue w3-round-xlarge">
+            <em>"If not us, who? If not now, when?"</em>
+         </blockquote>
+         
+         <blockquote class="w3-panel w3-blue w3-round-xlarge">
+            <em>"Every accomplishment starts with the decision to try"</em>
+         </blockquote>
 
       <section>
          <h2>The Life of JFK</h2>
@@ -52,10 +64,10 @@
             <h3>As Student</h3>
             <p>JFK graduates cum laude with a bachelor of science degree in international affairs from Harvard College. His thesis, Appeasement at Munich, is published that year as Why England Slept. The book, which describes why Great Britain was unprepared for war with Germany, becomes a bestseller.</p>
             <p>List of books written by JFK</p>
-            <ul class="special">
-               <li style="list-style-type: circle;">Why England slept</li>
-               <li style="list-style-type: circle;">Profiles in Courage</li>
-               <li style="list-style-type: circle;">A Nation of Immigrants</li>
+            <ul class="w3-ul w3-card-4" style="width:50%">
+               <li>Why England slept</li>
+               <li>Profiles in Courage</li>
+               <li>A Nation of Immigrants</li>
              </ul>
          </article>
 

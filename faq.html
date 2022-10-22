@@ -24,24 +24,30 @@
         <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
    </head>
 <body>
-<header>
+<header class="w3-container w3-light-blue">
    <h1 id="top"> FAQs</h1>
 </header>
-   <nav>
-      <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">JFK Gallery</a>| <a href="contact-us.html">Contact us</a>
-      <style>
-         a:link {color:#880000;} 
-         a:visited {color:#ff0095;} 
-         a:hover {color:#ffbb00;} 
-         a:active {color:#00c3ff;}  
-      </style>
-   </nav>
+<nav class="w3-bar w3-border w3-light-blue">
+   <a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Home</a>
+   <a href="faq.html" class="w3-bar-item w3-button w3-hover-teal">FAQs</a>
+   <a href="gallery.html" class="w3-bar-item w3-button w3-hover-teal">JFK Gallery</a>
+   <a href="contact-us.html" class="w3-bar-item w3-button w3-hover-teal">Contact us</a>
+
+   <style>
+      a:link {color:#880000;} /* unvisited link */
+      a:visited {color:#ff0095;} /* visited link */
+      a:hover {color:#ffbb00;} /* mouse over link */
+      a:active {color:#00c3ff;}  /* selected link */
+   </style>
+</nav>
+
 <section>
    <h2> <i>As on one the most coolest presidents to ever taken office I know you might have a few questions for me</i></h2>
 
-   <ol>
+   <ol class="w3-ul w3-card-4" style="width:50%">
       <li><a href="#1">When was JFK inaugurated into office?</a></li>
       <li><a href="#2">What happened during the Bay of Pigs event in 1961?</a></li>
       <li><a href="#3">How did JFK fight discrimination happening at the time in the US?</a></li>
@@ -93,7 +99,7 @@
       <dd>in inspiring similar efforts to rectify injustice across the United States. </dd>
       <dd><a href="#top">return to Top</a></dd>
    </dl>
-  //comments
+  
    <hr>
    <dl>
       <dt id="4">4.) On May 25, 1961,</dt>

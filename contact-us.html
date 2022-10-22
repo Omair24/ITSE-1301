@@ -5,7 +5,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>"JFK's Gallery"</title>
+      <title>"Contact Us"</title>
       <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
       <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -24,25 +24,30 @@
       <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
       <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
    </head>
 <body>
-    <header>
+    <header class="w3-container w3-light-blue">
         <h1>Contact Us</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">JFK Gallery</a>| <a href="contact-us.html">Contact us</a>
+    <nav class="w3-bar w3-border w3-light-blue">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Home</a>
+        <a href="faq.html" class="w3-bar-item w3-button w3-hover-teal">FAQs</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-hover-teal">JFK Gallery</a>
+        <a href="contact-us.html" class="w3-bar-item w3-button w3-hover-teal">Contact us</a>
+
         <style>
-            a:link {color:#880000;} /* unvisited link */
-            a:visited {color:#ff0095;} /* visited link */
-            a:hover {color:#ffbb00;} /* mouse over link */
-            a:active {color:#00c3ff;}  /* selected link */
-         </style>
+           a:link {color:#880000;} /* unvisited link */
+           a:visited {color:#ff0095;} /* visited link */
+           a:hover {color:#ffbb00;} /* mouse over link */
+           a:active {color:#00c3ff;}  /* selected link */
+        </style>
      </nav>
 
-   <p>I'm not asking you to do anything but asking what can I do for you!!</p>
+   <p>I'm not asking you to do anything but asking what you can do for your country!!</p>
 
-   <table border="1" cellpadding="2">
+   <table class="w3-table w3-striped w3-border">
         <caption>JFK Campaign Tour</caption>
         <thread>
             <tr>
@@ -91,38 +96,40 @@
    <h2>Want to help out my campaign? Sign up below!</h2>
 
    <fieldset>
+    <div class="w3-container w3-teal">
         <legend>Campaign Staff Application</legend>
+    </div>
         <form action="mailto:Omair358@outlook.com.ext" method="post">
-            <p><label> Last Name <input type="text" name="lastname" id="name" value="" autofocus required> </label></p>
-            <p><label> First Name <input type="text" name="firstname"> </label></p>
+            <p><label> Last Name <input class="w3-input w3-animate-input" type="text" name="lastname" id="name" value="" autofocus required> </label></p>
+            <p><label> First Name <input class="w3-input w3-animate-input" type="text" name="firstname"> </label></p>
 
             <p>Political Alignment</p>
             <label for="Liberal">Liberal</label> 
-            <input type="checkbox" id="Liberal" name="poltic" value="Liberal">
+            <input class="w3-check" type="checkbox"  id="Liberal" name="poltic" value="Liberal">
             <label for="Libertarian">Libertatrian</label> 
-            <input type="checkbox" id="Libertarian" name="poltic" value="Libertarian">
+            <input class="w3-check" type="checkbox"  id="Libertarian" name="poltic" value="Libertarian">
             <label for="Communist">Communist</label> 
-            <input type="checkbox" id="Communist" name="poltic" value="Communist">
+            <input class="w3-check" type="checkbox"  id="Communist" name="poltic" value="Communist">
             <label for="Republican">Republican</label> 
-            <input type="checkbox" id="Republican" name="poltic" value="Republican">
+            <input class="w3-check" type="checkbox"  id="Republican" name="poltic" value="Republican">
             <label for="Democratic">Democrat</label> 
-            <input type="checkbox" id="Democratic" name="poltic" value="Democratic">
+            <input class="w3-check" type="checkbox"  id="Democratic" name="poltic" value="Democratic">
 
             <p>Gender</p>
             <label for="Male">Male</label>
-            <input type="radio" id="Male" name="Gender" value="Male">
+            <input class="w3-radio" type="radio" id="Male" name="Gender" value="Male">
 
             <label for="Female">Female</label>
-            <input type="radio" id="Female" name="Gender" value="Female">
+            <input class="w3-radio" type="radio" id="Female" name="Gender" value="Female">
 
             <label for="non-binary">non-binary</label> 
-            <input type="radio" id="non-binary" name="Gender" value="non-binary">
+            <input class="w3-radio" type="radio" id="non-binary" name="Gender" value="non-binary">
             
             <label for="Alien">Alien</label>
-            <input type="radio" id="Alien" name="Gender" value="alien">
+            <input class="w3-radio" type="radio" id="Alien" name="Gender" value="alien">
 
             <p><label> Select State</label> </p>
-            <select name="State" size="" >
+            <select class="w3-select w3-border" name="State" size="" >
                 <option value="Texas" selected> Tx </option>
                 <option value="Arkansas" selected> Ar </option>
                 <option value="California" selected> Ca </option>
